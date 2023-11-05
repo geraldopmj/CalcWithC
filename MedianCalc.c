@@ -1,3 +1,8 @@
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
     int N, i, soma, media;
     printf("Quantas notas para calcular a media?\n");
     scanf("%i", &N);
