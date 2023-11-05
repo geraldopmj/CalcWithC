@@ -22,7 +22,15 @@ int main()
         soma = soma + vetorNotas[i];
     }
     media = soma / N;
-    printf("A media e %i\n", media);
+
+    if (media > 70)
+    {
+        printf("A media das notas e %i e vc foi aprovado!\n", media);
+    }
+    else
+    {
+        printf("A media das notas e %i e vc foi reprovado!\n", media);
+    }
 
     printf("Programa executado com sucesso!\n");
     return 0;
